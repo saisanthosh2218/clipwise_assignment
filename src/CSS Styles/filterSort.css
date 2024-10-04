@@ -1,0 +1,38 @@
+.filter-sort-container {
+  display: flex;
+  justify-content: start;
+  width: 100%;
+  margin: 20px 0;
+  gap: 15px;
+  padding: 8px;
+}
+
+/* .filter,
+.sort {
+  display: flex;
+  align-items: center;
+} */
+
+label {
+  font-size: 14px;
+  font-weight: bold;
+  color: #607d8b;
+  margin-right: 8px;
+}
+
+select {
+  font-size: 14px;
+  padding: 5px;
+  border: none;
+  border-radius: 4px;
+  color: black;
+  font-weight: bold;
+  /* background-color: ; */
+  cursor: pointer;
+  background-color: rgba(245, 245, 245, 0.919);
+}
+
+select:focus {
+  outline: none;
+  border-color: #ff4081;
+}
